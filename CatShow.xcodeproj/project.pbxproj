@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A5BBF8F11EEE7B7800F25789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBF8F01EEE7B7800F25789 /* main.m */; };
 		A5BBF8F41EEE7B7800F25789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBF8F31EEE7B7800F25789 /* AppDelegate.m */; };
-		A5BBF8F71EEE7B7800F25789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBF8F61EEE7B7800F25789 /* ViewController.m */; };
 		A5BBF8FC1EEE7B7800F25789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BBF8FB1EEE7B7800F25789 /* Assets.xcassets */; };
 		A5BBF8FF1EEE7B7800F25789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BBF8FD1EEE7B7800F25789 /* LaunchScreen.storyboard */; };
 		A5BBF90A1EEE7B7800F25789 /* CatShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBF9091EEE7B7800F25789 /* CatShowTests.m */; };
@@ -375,8 +374,6 @@
 		A5BBF8F01EEE7B7800F25789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5BBF8F21EEE7B7800F25789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5BBF8F31EEE7B7800F25789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5BBF8F51EEE7B7800F25789 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5BBF8F61EEE7B7800F25789 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A5BBF8FB1EEE7B7800F25789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5BBF8FE1EEE7B7800F25789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5BBF9001EEE7B7800F25789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1127,8 +1124,6 @@
 				A5BBF9281EEE7C4900F25789 /* Main */,
 				A5BBF9241EEE7BFD00F25789 /* NetWork */,
 				A5BBFD201EEE844800F25789 /* Classes */,
-				A5BBF8F51EEE7B7800F25789 /* ViewController.h */,
-				A5BBF8F61EEE7B7800F25789 /* ViewController.m */,
 				A5BBF8FB1EEE7B7800F25789 /* Assets.xcassets */,
 				A5BBF8FD1EEE7B7800F25789 /* LaunchScreen.storyboard */,
 				A5BBF9001EEE7B7800F25789 /* Info.plist */,
@@ -2430,7 +2425,6 @@
 				A5BBFBDD1EEE837000F25789 /* GPUImageHighlightShadowTintFilter.m in Sources */,
 				A5BBFC771EEE838A00F25789 /* README.mdown in Sources */,
 				A5BBFBCB1EEE836F00F25789 /* GPUImageFASTCornerDetectionFilter.m in Sources */,
-				A5BBF8F71EEE7B7800F25789 /* ViewController.m in Sources */,
 				A5BBFC111EEE837000F25789 /* GPUImagePrewittEdgeDetectionFilter.m in Sources */,
 				A5BBFD161EEE83C000F25789 /* SDWebImageManager.m in Sources */,
 				A5BBF9D61EEE831500F25789 /* GCDAsyncSocket.m in Sources */,

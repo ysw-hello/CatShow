@@ -7,6 +7,8 @@
 //
 
 #import "SWLoginVC.h"
+#import "SWThirdLoginView.h"
+#import "SWMainVC.h"
 
 @interface SWLoginVC ()
 

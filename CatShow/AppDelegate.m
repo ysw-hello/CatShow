@@ -36,7 +36,6 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     
     //给状态栏添加一个按钮可以进行点击，可以让屏幕上的scrollView滚动到最顶部
     [SWTopWindow show];
