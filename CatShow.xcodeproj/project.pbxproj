@@ -345,6 +345,7 @@
 		A5BBFD2C1EEF900500F25789 /* SWNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD2B1EEF900500F25789 /* SWNetworkTool.m */; };
 		A5BBFD311EEFB09200F25789 /* UIView+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD301EEFB09200F25789 /* UIView+SWExtension.m */; };
 		A5BBFD351EEFB66900F25789 /* UIImage+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD341EEFB66900F25789 /* UIImage+SWExtension.m */; };
+		A5BBFD381EEFD84100F25789 /* UIImageView+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD371EEFD84100F25789 /* UIImageView+SWExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1036,6 +1037,8 @@
 		A5BBFD301EEFB09200F25789 /* UIView+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SWExtension.m"; sourceTree = "<group>"; };
 		A5BBFD331EEFB66900F25789 /* UIImage+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SWExtension.h"; sourceTree = "<group>"; };
 		A5BBFD341EEFB66900F25789 /* UIImage+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SWExtension.m"; sourceTree = "<group>"; };
+		A5BBFD361EEFD84000F25789 /* UIImageView+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SWExtension.h"; sourceTree = "<group>"; };
+		A5BBFD371EEFD84100F25789 /* UIImageView+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SWExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2178,6 +2181,8 @@
 				A5BBFD301EEFB09200F25789 /* UIView+SWExtension.m */,
 				A5BBFD331EEFB66900F25789 /* UIImage+SWExtension.h */,
 				A5BBFD341EEFB66900F25789 /* UIImage+SWExtension.m */,
+				A5BBFD361EEFD84000F25789 /* UIImageView+SWExtension.h */,
+				A5BBFD371EEFD84100F25789 /* UIImageView+SWExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -2618,6 +2623,7 @@
 				A5BBFC001EEE837000F25789 /* GPUImageMultiplyBlendFilter.m in Sources */,
 				A5BBFC091EEE837000F25789 /* GPUImagePerlinNoiseFilter.m in Sources */,
 				A5BBFBE41EEE837000F25789 /* GPUImageHueBlendFilter.m in Sources */,
+				A5BBFD381EEFD84100F25789 /* UIImageView+SWExtension.m in Sources */,
 				A5BBFC0A1EEE837000F25789 /* GPUImagePinchDistortionFilter.m in Sources */,
 				A5BBFC1E1EEE837000F25789 /* GPUImageShiTomasiFeatureDetectionFilter.m in Sources */,
 				A5BBFC211EEE837000F25789 /* GPUImageSkinToneFilter.m in Sources */,
