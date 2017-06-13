@@ -342,6 +342,8 @@
 		A5BBFD1D1EEE83C000F25789 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD0F1EEE83C000F25789 /* UIView+WebCacheOperation.m */; };
 		A5BBFD1F1EEE83FB00F25789 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBFD1E1EEE83FB00F25789 /* libz.tbd */; };
 		A5BBFD251EEF809100F25789 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBFD241EEF809100F25789 /* IJKMediaFramework.framework */; };
+		A5BBFD2C1EEF900500F25789 /* SWNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD2B1EEF900500F25789 /* SWNetworkTool.m */; };
+		A5BBFD311EEFB09200F25789 /* UIView+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD301EEFB09200F25789 /* UIView+SWExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1025,6 +1027,12 @@
 		A5BBFD0F1EEE83C000F25789 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		A5BBFD1E1EEE83FB00F25789 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A5BBFD241EEF809100F25789 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = CatShow/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A5BBFD2A1EEF900500F25789 /* SWNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNetworkTool.h; sourceTree = "<group>"; };
+		A5BBFD2B1EEF900500F25789 /* SWNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNetworkTool.m; sourceTree = "<group>"; };
+		A5BBFD2D1EEF908F00F25789 /* SWConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWConstant.h; sourceTree = "<group>"; };
+		A5BBFD2E1EEFA85100F25789 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A5BBFD2F1EEFB09200F25789 /* UIView+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SWExtension.h"; sourceTree = "<group>"; };
+		A5BBFD301EEFB09200F25789 /* UIView+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SWExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1091,12 +1099,12 @@
 		A5BBF8EE1EEE7B7800F25789 /* CatShow */ = {
 			isa = PBXGroup;
 			children = (
-				A5BBF93A1EEE7E6500F25789 /* SWConfigInfo */,
+				A5BBF8F21EEE7B7800F25789 /* AppDelegate.h */,
+				A5BBF8F31EEE7B7800F25789 /* AppDelegate.m */,
+				A5BBFD281EEF8E9E00F25789 /* SWConfigInfo */,
 				A5BBF92C1EEE7CCE00F25789 /* Tools */,
 				A5BBF9281EEE7C4900F25789 /* Main */,
 				A5BBF9241EEE7BFD00F25789 /* NetWork */,
-				A5BBF8F21EEE7B7800F25789 /* AppDelegate.h */,
-				A5BBF8F31EEE7B7800F25789 /* AppDelegate.m */,
 				A5BBFD201EEE844800F25789 /* Classes */,
 				A5BBF8F51EEE7B7800F25789 /* ViewController.h */,
 				A5BBF8F61EEE7B7800F25789 /* ViewController.m */,
@@ -1165,6 +1173,9 @@
 			children = (
 				A5BBF92D1EEE7CEA00F25789 /* SWTopWindow.h */,
 				A5BBF92E1EEE7CEA00F25789 /* SWTopWindow.m */,
+				A5BBFD2A1EEF900500F25789 /* SWNetworkTool.h */,
+				A5BBFD2B1EEF900500F25789 /* SWNetworkTool.m */,
+				A5BBFD321EEFB1EF00F25789 /* Category */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -1176,13 +1187,6 @@
 				A5BBF9381EEE7DBE00F25789 /* SWThirdLoginView.m */,
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		A5BBF93A1EEE7E6500F25789 /* SWConfigInfo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SWConfigInfo;
 			sourceTree = "<group>";
 		};
 		A5BBF93B1EEE7E7400F25789 /* Resources */ = {
@@ -2155,6 +2159,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		A5BBFD281EEF8E9E00F25789 /* SWConfigInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD2D1EEF908F00F25789 /* SWConstant.h */,
+				A5BBFD2E1EEFA85100F25789 /* PrefixHeader.pch */,
+			);
+			path = SWConfigInfo;
+			sourceTree = "<group>";
+		};
+		A5BBFD321EEFB1EF00F25789 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD2F1EEFB09200F25789 /* UIView+SWExtension.h */,
+				A5BBFD301EEFB09200F25789 /* UIView+SWExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2477,6 +2499,7 @@
 				A5BBFC061EEE837000F25789 /* GPUImageOutput.m in Sources */,
 				A5BBF98F1EEE82F300F25789 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				A5BBFC761EEE838A00F25789 /* MBProgressHUD.m in Sources */,
+				A5BBFD2C1EEF900500F25789 /* SWNetworkTool.m in Sources */,
 				A5BBFC0F1EEE837000F25789 /* GPUImagePolkaDotFilter.m in Sources */,
 				A5BBFBE61EEE837000F25789 /* GPUImageiOSBlurFilter.m in Sources */,
 				A5BBFBFB1EEE837000F25789 /* GPUImageMosaicFilter.m in Sources */,
@@ -2552,6 +2575,7 @@
 				A5BBFCC91EEE83A000F25789 /* MJRefreshComponent.m in Sources */,
 				A5BBFC261EEE837000F25789 /* GPUImageSolarizeFilter.m in Sources */,
 				A5BBFC391EEE837000F25789 /* GPUImageTwoInputFilter.m in Sources */,
+				A5BBFD311EEFB09200F25789 /* UIView+SWExtension.m in Sources */,
 				A5BBFBB11EEE836F00F25789 /* GPUImageColorBlendFilter.m in Sources */,
 				A5BBFBB21EEE836F00F25789 /* GPUImageColorBurnBlendFilter.m in Sources */,
 				A5BBF9711EEE82E900F25789 /* AFHTTPSessionManager.m in Sources */,
@@ -2750,6 +2774,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CatShow",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CatShow/SWConfigInfo/PrefixHeader.pch;
 				INFOPLIST_FILE = CatShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2767,6 +2793,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CatShow",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CatShow/SWConfigInfo/PrefixHeader.pch;
 				INFOPLIST_FILE = CatShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  CatShow
+//
+//  Created by Timmy on 2017/6/13.
+//  Copyright © 2017年 ysw.com. All rights reserved.
+//
+
+#pragma mark - 自定义NSLog
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t  %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <UIKit/UIKit.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "Masonry.h"
+#import "MJExtension.h"
+
+
+#import "SWNetworkTool.h"
+#import "SWConstant.h"
+#import "UIView+SWExtension.h"
+
+
+#endif /* PrefixHeader_pch */
+
+#endif

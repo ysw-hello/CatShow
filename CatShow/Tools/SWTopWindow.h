@@ -10,4 +10,8 @@
 
 @interface SWTopWindow : NSObject
 
++(void)show;
+
++(void)hide;
+
 @end
