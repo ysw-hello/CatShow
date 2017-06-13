@@ -348,6 +348,9 @@
 		A5BBFD381EEFD84100F25789 /* UIImageView+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD371EEFD84100F25789 /* UIImageView+SWExtension.m */; };
 		A5BBFD3B1EEFD99900F25789 /* UIViewController+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD3A1EEFD99900F25789 /* UIViewController+SWExtension.m */; };
 		A5BBFD3E1EEFDD2600F25789 /* UIDevice+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD3D1EEFDD2600F25789 /* UIDevice+SWExtension.m */; };
+		A5BBFD431EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD421EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.m */; };
+		A5BBFD461EEFE32000F25789 /* UIViewController+SWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD451EEFE32000F25789 /* UIViewController+SWHUD.m */; };
+		A5BBFD491EEFE33200F25789 /* NSObject+SWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD481EEFE33200F25789 /* NSObject+SWHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1045,6 +1048,12 @@
 		A5BBFD3A1EEFD99900F25789 /* UIViewController+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWExtension.m"; sourceTree = "<group>"; };
 		A5BBFD3C1EEFDD2600F25789 /* UIDevice+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SWExtension.h"; sourceTree = "<group>"; };
 		A5BBFD3D1EEFDD2600F25789 /* UIDevice+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SWExtension.m"; sourceTree = "<group>"; };
+		A5BBFD411EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJRefreshGifHeader+SWExtension.h"; sourceTree = "<group>"; };
+		A5BBFD421EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJRefreshGifHeader+SWExtension.m"; sourceTree = "<group>"; };
+		A5BBFD441EEFE32000F25789 /* UIViewController+SWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SWHUD.h"; sourceTree = "<group>"; };
+		A5BBFD451EEFE32000F25789 /* UIViewController+SWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWHUD.m"; sourceTree = "<group>"; };
+		A5BBFD471EEFE33200F25789 /* NSObject+SWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SWHUD.h"; sourceTree = "<group>"; };
+		A5BBFD481EEFE33200F25789 /* NSObject+SWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SWHUD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2193,8 +2202,30 @@
 				A5BBFD3A1EEFD99900F25789 /* UIViewController+SWExtension.m */,
 				A5BBFD3C1EEFDD2600F25789 /* UIDevice+SWExtension.h */,
 				A5BBFD3D1EEFDD2600F25789 /* UIDevice+SWExtension.m */,
+				A5BBFD401EEFE17200F25789 /* HUD */,
+				A5BBFD3F1EEFE15900F25789 /* Refresh */,
 			);
 			name = Category;
+			sourceTree = "<group>";
+		};
+		A5BBFD3F1EEFE15900F25789 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD411EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.h */,
+				A5BBFD421EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.m */,
+			);
+			name = Refresh;
+			sourceTree = "<group>";
+		};
+		A5BBFD401EEFE17200F25789 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD441EEFE32000F25789 /* UIViewController+SWHUD.h */,
+				A5BBFD451EEFE32000F25789 /* UIViewController+SWHUD.m */,
+				A5BBFD471EEFE33200F25789 /* NSObject+SWHUD.h */,
+				A5BBFD481EEFE33200F25789 /* NSObject+SWHUD.m */,
+			);
+			name = HUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2453,6 +2484,7 @@
 				A5BBFC181EEE837000F25789 /* GPUImageRGBOpeningFilter.m in Sources */,
 				A5BBFBB31EEE836F00F25789 /* GPUImageColorConversion.m in Sources */,
 				A5BBFCED1EEE83B000F25789 /* error.c in Sources */,
+				A5BBFD461EEFE32000F25789 /* UIViewController+SWHUD.m in Sources */,
 				A5BBFBEA1EEE837000F25789 /* GPUImageLanczosResamplingFilter.m in Sources */,
 				A5BBFBBB1EEE836F00F25789 /* GPUImageContrastFilter.m in Sources */,
 				A5BBFC1B1EEE837000F25789 /* GPUImageScreenBlendFilter.m in Sources */,
@@ -2532,6 +2564,7 @@
 				A5BBFCCB1EEE83A000F25789 /* MJRefreshHeader.m in Sources */,
 				A5BBFBE31EEE837000F25789 /* GPUImageHSBFilter.m in Sources */,
 				A5BBFC681EEE837D00F25789 /* MASConstraintMaker.m in Sources */,
+				A5BBFD491EEFE33200F25789 /* NSObject+SWHUD.m in Sources */,
 				A5BBFBF21EEE837000F25789 /* GPUImageLowPassFilter.m in Sources */,
 				A5BBF9741EEE82E900F25789 /* AFURLRequestSerialization.m in Sources */,
 				A5BBFA2F1EEE833100F25789 /* LFStreamRtmpSocket.m in Sources */,
@@ -2578,6 +2611,7 @@
 				A5BBF9BC1EEE830300F25789 /* BarrageDispatcher.m in Sources */,
 				A5BBFBE01EEE837000F25789 /* GPUImageHistogramFilter.m in Sources */,
 				A5BBFC351EEE837000F25789 /* GPUImageToneCurveFilter.m in Sources */,
+				A5BBFD431EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.m in Sources */,
 				A5BBFBF41EEE837000F25789 /* GPUImageLuminanceThresholdFilter.m in Sources */,
 				A5BBFBD21EEE836F00F25789 /* GPUImageGammaFilter.m in Sources */,
 				A5BBFBD51EEE836F00F25789 /* GPUImageGaussianSelectiveBlurFilter.m in Sources */,
