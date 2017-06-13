@@ -346,6 +346,7 @@
 		A5BBFD311EEFB09200F25789 /* UIView+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD301EEFB09200F25789 /* UIView+SWExtension.m */; };
 		A5BBFD351EEFB66900F25789 /* UIImage+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD341EEFB66900F25789 /* UIImage+SWExtension.m */; };
 		A5BBFD381EEFD84100F25789 /* UIImageView+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD371EEFD84100F25789 /* UIImageView+SWExtension.m */; };
+		A5BBFD3B1EEFD99900F25789 /* UIViewController+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD3A1EEFD99900F25789 /* UIViewController+SWExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1039,6 +1040,8 @@
 		A5BBFD341EEFB66900F25789 /* UIImage+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SWExtension.m"; sourceTree = "<group>"; };
 		A5BBFD361EEFD84000F25789 /* UIImageView+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SWExtension.h"; sourceTree = "<group>"; };
 		A5BBFD371EEFD84100F25789 /* UIImageView+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SWExtension.m"; sourceTree = "<group>"; };
+		A5BBFD391EEFD99900F25789 /* UIViewController+SWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SWExtension.h"; sourceTree = "<group>"; };
+		A5BBFD3A1EEFD99900F25789 /* UIViewController+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2183,6 +2186,8 @@
 				A5BBFD341EEFB66900F25789 /* UIImage+SWExtension.m */,
 				A5BBFD361EEFD84000F25789 /* UIImageView+SWExtension.h */,
 				A5BBFD371EEFD84100F25789 /* UIImageView+SWExtension.m */,
+				A5BBFD391EEFD99900F25789 /* UIViewController+SWExtension.h */,
+				A5BBFD3A1EEFD99900F25789 /* UIViewController+SWExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -2451,6 +2456,7 @@
 				A5BBF9C11EEE830300F25789 /* BarrageFloatSprite.m in Sources */,
 				A5BBFCD41EEE83A000F25789 /* MJRefreshStateHeader.m in Sources */,
 				A5BBFBE11EEE837000F25789 /* GPUImageHistogramGenerator.m in Sources */,
+				A5BBFD3B1EEFD99900F25789 /* UIViewController+SWExtension.m in Sources */,
 				A5BBFA1E1EEE833100F25789 /* LFLiveVideoConfiguration.m in Sources */,
 				A5BBFCEC1EEE83B000F25789 /* amf.c in Sources */,
 				A5BBFC141EEE837000F25789 /* GPUImageRGBClosingFilter.m in Sources */,
