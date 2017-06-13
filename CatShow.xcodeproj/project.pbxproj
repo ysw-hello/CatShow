@@ -341,6 +341,7 @@
 		A5BBFD1C1EEE83C000F25789 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD0D1EEE83C000F25789 /* UIImageView+WebCache.m */; };
 		A5BBFD1D1EEE83C000F25789 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD0F1EEE83C000F25789 /* UIView+WebCacheOperation.m */; };
 		A5BBFD1F1EEE83FB00F25789 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBFD1E1EEE83FB00F25789 /* libz.tbd */; };
+		A5BBFD251EEF809100F25789 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBFD241EEF809100F25789 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1023,6 +1024,7 @@
 		A5BBFD0E1EEE83C000F25789 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		A5BBFD0F1EEE83C000F25789 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		A5BBFD1E1EEE83FB00F25789 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A5BBFD241EEF809100F25789 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = CatShow/IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1030,6 +1032,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BBFD251EEF809100F25789 /* IJKMediaFramework.framework in Frameworks */,
 				A5BBFD1F1EEE83FB00F25789 /* libz.tbd in Frameworks */,
 				A5BBF9621EEE820700F25789 /* VideoToolbox.framework in Frameworks */,
 				A5BBF9601EEE81FE00F25789 /* UIKit.framework in Frameworks */,
@@ -1216,6 +1219,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BBFD1E1EEE83FB00F25789 /* libz.tbd */,
+				A5BBFD241EEF809100F25789 /* IJKMediaFramework.framework */,
 				A5BBF9611EEE820700F25789 /* VideoToolbox.framework */,
 				A5BBF95F1EEE81FE00F25789 /* UIKit.framework */,
 				A5BBF95D1EEE81F300F25789 /* SystemConfiguration.framework */,
