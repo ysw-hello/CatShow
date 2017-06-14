@@ -350,6 +350,9 @@
 		A5BBFD431EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD421EEFE1D200F25789 /* MJRefreshGifHeader+SWExtension.m */; };
 		A5BBFD461EEFE32000F25789 /* UIViewController+SWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD451EEFE32000F25789 /* UIViewController+SWHUD.m */; };
 		A5BBFD491EEFE33200F25789 /* NSObject+SWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD481EEFE33200F25789 /* NSObject+SWHUD.m */; };
+		A5BBFD541EF0DEA900F25789 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD531EF0DEA900F25789 /* HomeViewController.m */; };
+		A5BBFD5A1EF0DF0400F25789 /* ShowTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD591EF0DF0400F25789 /* ShowTimeViewController.m */; };
+		A5BBFD601EF0DF3A00F25789 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD5F1EF0DF3A00F25789 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1051,6 +1054,12 @@
 		A5BBFD451EEFE32000F25789 /* UIViewController+SWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWHUD.m"; sourceTree = "<group>"; };
 		A5BBFD471EEFE33200F25789 /* NSObject+SWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SWHUD.h"; sourceTree = "<group>"; };
 		A5BBFD481EEFE33200F25789 /* NSObject+SWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SWHUD.m"; sourceTree = "<group>"; };
+		A5BBFD521EF0DEA900F25789 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A5BBFD531EF0DEA900F25789 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A5BBFD581EF0DF0400F25789 /* ShowTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTimeViewController.h; sourceTree = "<group>"; };
+		A5BBFD591EF0DF0400F25789 /* ShowTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTimeViewController.m; sourceTree = "<group>"; };
+		A5BBFD5E1EF0DF3A00F25789 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A5BBFD5F1EF0DF3A00F25789 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2171,6 +2180,9 @@
 		A5BBFD201EEE844800F25789 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A5BBFD4A1EF0DD5E00F25789 /* Home */,
+				A5BBFD4B1EF0DD6F00F25789 /* ShowTime */,
+				A5BBFD4D1EF0DDA500F25789 /* Profile */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -2221,6 +2233,113 @@
 				A5BBFD481EEFE33200F25789 /* NSObject+SWHUD.m */,
 			);
 			name = HUD;
+			sourceTree = "<group>";
+		};
+		A5BBFD4A1EF0DD5E00F25789 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD4E1EF0DE2700F25789 /* home */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A5BBFD4B1EF0DD6F00F25789 /* ShowTime */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD571EF0DEE300F25789 /* Controller */,
+				A5BBFD561EF0DEDC00F25789 /* Model */,
+				A5BBFD551EF0DEC400F25789 /* View */,
+			);
+			name = ShowTime;
+			sourceTree = "<group>";
+		};
+		A5BBFD4D1EF0DDA500F25789 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD5B1EF0DF1000F25789 /* Controller */,
+				A5BBFD5D1EF0DF2200F25789 /* Model */,
+				A5BBFD5C1EF0DF1B00F25789 /* View */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		A5BBFD4E1EF0DE2700F25789 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD4F1EF0DE4C00F25789 /* ViewController */,
+				A5BBFD511EF0DE6800F25789 /* Model */,
+				A5BBFD501EF0DE5D00F25789 /* View */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		A5BBFD4F1EF0DE4C00F25789 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD521EF0DEA900F25789 /* HomeViewController.h */,
+				A5BBFD531EF0DEA900F25789 /* HomeViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		A5BBFD501EF0DE5D00F25789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5BBFD511EF0DE6800F25789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5BBFD551EF0DEC400F25789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5BBFD561EF0DEDC00F25789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5BBFD571EF0DEE300F25789 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD581EF0DF0400F25789 /* ShowTimeViewController.h */,
+				A5BBFD591EF0DF0400F25789 /* ShowTimeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5BBFD5B1EF0DF1000F25789 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD5E1EF0DF3A00F25789 /* ProfileViewController.h */,
+				A5BBFD5F1EF0DF3A00F25789 /* ProfileViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5BBFD5C1EF0DF1B00F25789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5BBFD5D1EF0DF2200F25789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2485,6 +2604,7 @@
 				A5BBF92B1EEE7C8900F25789 /* SWLoginVC.m in Sources */,
 				A5BBF9BD1EEE830300F25789 /* BarrageRenderer.m in Sources */,
 				A5BBFCD91EEE83A000F25789 /* UIScrollView+MJRefresh.m in Sources */,
+				A5BBFD5A1EF0DF0400F25789 /* ShowTimeViewController.m in Sources */,
 				A5BBF9C11EEE830300F25789 /* BarrageFloatSprite.m in Sources */,
 				A5BBFCD41EEE83A000F25789 /* MJRefreshStateHeader.m in Sources */,
 				A5BBFBE11EEE837000F25789 /* GPUImageHistogramGenerator.m in Sources */,
@@ -2535,6 +2655,7 @@
 				A5BBFBA31EEE836F00F25789 /* GPUImageAlphaBlendFilter.m in Sources */,
 				A5BBFD351EEFB66900F25789 /* UIImage+SWExtension.m in Sources */,
 				A5BBFC241EEE837000F25789 /* GPUImageSoftEleganceFilter.m in Sources */,
+				A5BBFD541EF0DEA900F25789 /* HomeViewController.m in Sources */,
 				A5BBF9731EEE82E900F25789 /* AFSecurityPolicy.m in Sources */,
 				A5BBF9D91EEE831500F25789 /* AsyncUdpSocket.m in Sources */,
 				A5BBFCD01EEE83A000F25789 /* MJRefreshBackNormalFooter.m in Sources */,
@@ -2575,6 +2696,7 @@
 				A5BBFC011EEE837000F25789 /* GPUImageNobleCornerDetectionFilter.m in Sources */,
 				A5BBFA2B1EEE833100F25789 /* info.c in Sources */,
 				A5BBFC901EEE839500F25789 /* MJProperty.m in Sources */,
+				A5BBFD601EF0DF3A00F25789 /* ProfileViewController.m in Sources */,
 				A5BBFA2C1EEE833100F25789 /* types.c in Sources */,
 				A5BBFC6D1EEE837D00F25789 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A5BBFC1D1EEE837000F25789 /* GPUImageSharpenFilter.m in Sources */,
