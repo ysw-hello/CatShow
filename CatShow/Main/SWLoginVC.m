@@ -108,6 +108,16 @@
     
 }
 
+//-(NSArray *)quickSortWithNotSortData:(NSArray *)arr{
+//    int m = 0;
+//    int n = (int)(arr.count - 1);
+//    int k,t,i,j;
+//    if (m<n) {
+//        i = m;
+//        j =
+//    }
+//}
+
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     
