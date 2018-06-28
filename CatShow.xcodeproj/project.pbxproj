@@ -353,6 +353,13 @@
 		A5BBFD541EF0DEA900F25789 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD531EF0DEA900F25789 /* HomeViewController.m */; };
 		A5BBFD5A1EF0DF0400F25789 /* ShowTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD591EF0DF0400F25789 /* ShowTimeViewController.m */; };
 		A5BBFD601EF0DF3A00F25789 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD5F1EF0DF3A00F25789 /* ProfileViewController.m */; };
+		A5BBFD681EF10F4800F25789 /* SWSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD671EF10F4800F25789 /* SWSelectedView.m */; };
+		A5BBFD6B1EF10F6200F25789 /* SWLive.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD6A1EF10F6200F25789 /* SWLive.m */; };
+		A5BBFD6E1EF10F6F00F25789 /* SWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD6D1EF10F6F00F25789 /* SWUser.m */; };
+		A5BBFD741EF1181300F25789 /* SWHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD731EF1181300F25789 /* SWHotViewController.m */; };
+		A5BBFD7A1EF1184400F25789 /* SWNewStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD791EF1184400F25789 /* SWNewStarViewController.m */; };
+		A5BBFD801EF1186B00F25789 /* SWCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD7F1EF1186B00F25789 /* SWCareViewController.m */; };
+		A5BBFD831EF118FE00F25789 /* SWWebBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBFD821EF118FE00F25789 /* SWWebBaseVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1060,6 +1067,20 @@
 		A5BBFD591EF0DF0400F25789 /* ShowTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTimeViewController.m; sourceTree = "<group>"; };
 		A5BBFD5E1EF0DF3A00F25789 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		A5BBFD5F1EF0DF3A00F25789 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A5BBFD661EF10F4800F25789 /* SWSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSelectedView.h; sourceTree = "<group>"; };
+		A5BBFD671EF10F4800F25789 /* SWSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSelectedView.m; sourceTree = "<group>"; };
+		A5BBFD691EF10F6200F25789 /* SWLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLive.h; sourceTree = "<group>"; };
+		A5BBFD6A1EF10F6200F25789 /* SWLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLive.m; sourceTree = "<group>"; };
+		A5BBFD6C1EF10F6F00F25789 /* SWUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUser.h; sourceTree = "<group>"; };
+		A5BBFD6D1EF10F6F00F25789 /* SWUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUser.m; sourceTree = "<group>"; };
+		A5BBFD721EF1181300F25789 /* SWHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHotViewController.h; sourceTree = "<group>"; };
+		A5BBFD731EF1181300F25789 /* SWHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHotViewController.m; sourceTree = "<group>"; };
+		A5BBFD781EF1184400F25789 /* SWNewStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNewStarViewController.h; sourceTree = "<group>"; };
+		A5BBFD791EF1184400F25789 /* SWNewStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNewStarViewController.m; sourceTree = "<group>"; };
+		A5BBFD7E1EF1186B00F25789 /* SWCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCareViewController.h; sourceTree = "<group>"; };
+		A5BBFD7F1EF1186B00F25789 /* SWCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCareViewController.m; sourceTree = "<group>"; };
+		A5BBFD811EF118FE00F25789 /* SWWebBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWWebBaseVC.h; sourceTree = "<group>"; };
+		A5BBFD821EF118FE00F25789 /* SWWebBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWWebBaseVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1196,10 +1217,8 @@
 		A5BBF92C1EEE7CCE00F25789 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				A5BBF92D1EEE7CEA00F25789 /* SWTopWindow.h */,
-				A5BBF92E1EEE7CEA00F25789 /* SWTopWindow.m */,
-				A5BBFD2A1EEF900500F25789 /* SWNetworkTool.h */,
-				A5BBFD2B1EEF900500F25789 /* SWNetworkTool.m */,
+				A5BBFD841EF1191700F25789 /* 功能类 */,
+				A5BBFD631EF10EDE00F25789 /* WebBaseVC */,
 				A5BBFD321EEFB1EF00F25789 /* Category */,
 			);
 			path = Tools;
@@ -2238,7 +2257,11 @@
 		A5BBFD4A1EF0DD5E00F25789 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A5BBFD4E1EF0DE2700F25789 /* home */,
+				A5BBFD4E1EF0DE2700F25789 /* 首页 */,
+				A5BBFD611EF10EB100F25789 /* 热门 */,
+				A5BBFD651EF10F0600F25789 /* 最新 */,
+				A5BBFD641EF10EF100F25789 /* 关注 */,
+				A5BBFD621EF10ED200F25789 /* live */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -2263,14 +2286,14 @@
 			name = Profile;
 			sourceTree = "<group>";
 		};
-		A5BBFD4E1EF0DE2700F25789 /* home */ = {
+		A5BBFD4E1EF0DE2700F25789 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
 				A5BBFD4F1EF0DE4C00F25789 /* ViewController */,
 				A5BBFD511EF0DE6800F25789 /* Model */,
 				A5BBFD501EF0DE5D00F25789 /* View */,
 			);
-			name = home;
+			name = "首页";
 			sourceTree = "<group>";
 		};
 		A5BBFD4F1EF0DE4C00F25789 /* ViewController */ = {
@@ -2285,6 +2308,8 @@
 		A5BBFD501EF0DE5D00F25789 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A5BBFD661EF10F4800F25789 /* SWSelectedView.h */,
+				A5BBFD671EF10F4800F25789 /* SWSelectedView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -2292,6 +2317,10 @@
 		A5BBFD511EF0DE6800F25789 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A5BBFD691EF10F6200F25789 /* SWLive.h */,
+				A5BBFD6A1EF10F6200F25789 /* SWLive.m */,
+				A5BBFD6C1EF10F6F00F25789 /* SWUser.h */,
+				A5BBFD6D1EF10F6F00F25789 /* SWUser.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -2340,6 +2369,133 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A5BBFD611EF10EB100F25789 /* 热门 */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD6F1EF117CB00F25789 /* Controller */,
+				A5BBFD711EF117E000F25789 /* Model */,
+				A5BBFD701EF117D600F25789 /* View */,
+			);
+			name = "热门";
+			sourceTree = "<group>";
+		};
+		A5BBFD621EF10ED200F25789 /* live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = live;
+			sourceTree = "<group>";
+		};
+		A5BBFD631EF10EDE00F25789 /* WebBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD811EF118FE00F25789 /* SWWebBaseVC.h */,
+				A5BBFD821EF118FE00F25789 /* SWWebBaseVC.m */,
+			);
+			name = WebBaseVC;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		A5BBFD641EF10EF100F25789 /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD7D1EF1185C00F25789 /* Controller */,
+				A5BBFD7C1EF1185600F25789 /* Model */,
+				A5BBFD7B1EF1184B00F25789 /* View */,
+			);
+			name = "关注";
+			sourceTree = "<group>";
+		};
+		A5BBFD651EF10F0600F25789 /* 最新 */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD751EF1182100F25789 /* Controller */,
+				A5BBFD771EF1183100F25789 /* Model */,
+				A5BBFD761EF1182B00F25789 /* View */,
+			);
+			name = "最新";
+			sourceTree = "<group>";
+		};
+		A5BBFD6F1EF117CB00F25789 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD721EF1181300F25789 /* SWHotViewController.h */,
+				A5BBFD731EF1181300F25789 /* SWHotViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5BBFD701EF117D600F25789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5BBFD711EF117E000F25789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5BBFD751EF1182100F25789 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD781EF1184400F25789 /* SWNewStarViewController.h */,
+				A5BBFD791EF1184400F25789 /* SWNewStarViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5BBFD761EF1182B00F25789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5BBFD771EF1183100F25789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5BBFD7B1EF1184B00F25789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5BBFD7C1EF1185600F25789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5BBFD7D1EF1185C00F25789 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBFD7E1EF1186B00F25789 /* SWCareViewController.h */,
+				A5BBFD7F1EF1186B00F25789 /* SWCareViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5BBFD841EF1191700F25789 /* 功能类 */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBF92D1EEE7CEA00F25789 /* SWTopWindow.h */,
+				A5BBF92E1EEE7CEA00F25789 /* SWTopWindow.m */,
+				A5BBFD2A1EEF900500F25789 /* SWNetworkTool.h */,
+				A5BBFD2B1EEF900500F25789 /* SWNetworkTool.m */,
+			);
+			name = "功能类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2581,9 +2737,11 @@
 				A5BBFC421EEE837000F25789 /* GPUImageWhiteBalanceFilter.m in Sources */,
 				A5BBFBD81EEE836F00F25789 /* GPUImageHalftoneFilter.m in Sources */,
 				A5BBFBAA1EEE836F00F25789 /* GPUImageBuffer.m in Sources */,
+				A5BBFD681EF10F4800F25789 /* SWSelectedView.m in Sources */,
 				A5BBF9C61EEE830300F25789 /* BarrageWalkSprite.m in Sources */,
 				A5BBFBC01EEE836F00F25789 /* GPUImageDifferenceBlendFilter.m in Sources */,
 				A5BBF9351EEE7D6E00F25789 /* SWNavigationController.m in Sources */,
+				A5BBFD801EF1186B00F25789 /* SWCareViewController.m in Sources */,
 				A5BBFC1A1EEE837000F25789 /* GPUImageSaturationFilter.m in Sources */,
 				A5BBFBFA1EEE837000F25789 /* GPUImageMonochromeFilter.m in Sources */,
 				A5BBFBDB1EEE837000F25789 /* GPUImageHazeFilter.m in Sources */,
@@ -2684,6 +2842,7 @@
 				A5BBF9741EEE82E900F25789 /* AFURLRequestSerialization.m in Sources */,
 				A5BBFA2F1EEE833100F25789 /* LFStreamRtmpSocket.m in Sources */,
 				A5BBFC911EEE839500F25789 /* MJPropertyKey.m in Sources */,
+				A5BBFD831EF118FE00F25789 /* SWWebBaseVC.m in Sources */,
 				A5BBFC0B1EEE837000F25789 /* GPUImagePixellateFilter.m in Sources */,
 				A5BBFC271EEE837000F25789 /* GPUImageSolidColorGenerator.m in Sources */,
 				A5BBFBC71EEE836F00F25789 /* GPUImageErosionFilter.m in Sources */,
@@ -2698,6 +2857,7 @@
 				A5BBFC901EEE839500F25789 /* MJProperty.m in Sources */,
 				A5BBFD601EF0DF3A00F25789 /* ProfileViewController.m in Sources */,
 				A5BBFA2C1EEE833100F25789 /* types.c in Sources */,
+				A5BBFD7A1EF1184400F25789 /* SWNewStarViewController.m in Sources */,
 				A5BBFC6D1EEE837D00F25789 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A5BBFC1D1EEE837000F25789 /* GPUImageSharpenFilter.m in Sources */,
 				A5BBFBBA1EEE836F00F25789 /* GPUImageColourFASTSamplingOperation.m in Sources */,
@@ -2766,6 +2926,7 @@
 				A5BBFBB41EEE836F00F25789 /* GPUImageColorDodgeBlendFilter.m in Sources */,
 				A5BBFC371EEE837000F25789 /* GPUImageTransformFilter.m in Sources */,
 				A5BBFBD31EEE836F00F25789 /* GPUImageGaussianBlurFilter.m in Sources */,
+				A5BBFD6B1EF10F6200F25789 /* SWLive.m in Sources */,
 				A5BBF9D81EEE831500F25789 /* AsyncSocket.m in Sources */,
 				A5BBFCCF1EEE83A000F25789 /* MJRefreshBackGifFooter.m in Sources */,
 				A5BBFC1C1EEE837000F25789 /* GPUImageSepiaFilter.m in Sources */,
@@ -2777,6 +2938,7 @@
 				A5BBF9911EEE82F300F25789 /* UIImageView+AFNetworking.m in Sources */,
 				A5BBFBDE1EEE837000F25789 /* GPUImageHighPassFilter.m in Sources */,
 				A5BBFA1A1EEE833100F25789 /* LFVideoCapture.m in Sources */,
+				A5BBFD741EF1181300F25789 /* SWHotViewController.m in Sources */,
 				A5BBFD141EEE83C000F25789 /* SDWebImageDownloader.m in Sources */,
 				A5BBFBBD1EEE836F00F25789 /* GPUImageCrosshairGenerator.m in Sources */,
 				A5BBFC041EEE837000F25789 /* GPUImageOpacityFilter.m in Sources */,
@@ -2788,6 +2950,7 @@
 				A5BBFD381EEFD84100F25789 /* UIImageView+SWExtension.m in Sources */,
 				A5BBFC0A1EEE837000F25789 /* GPUImagePinchDistortionFilter.m in Sources */,
 				A5BBFC1E1EEE837000F25789 /* GPUImageShiTomasiFeatureDetectionFilter.m in Sources */,
+				A5BBFD6E1EF10F6F00F25789 /* SWUser.m in Sources */,
 				A5BBFC211EEE837000F25789 /* GPUImageSkinToneFilter.m in Sources */,
 				A5BBFA2A1EEE833100F25789 /* flv.c in Sources */,
 				A5BBFC3E1EEE837000F25789 /* GPUImageVideoCamera.m in Sources */,
